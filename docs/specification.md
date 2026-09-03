@@ -6,12 +6,13 @@
 2. Agreements contain humans, not LLCs, DAOs, or other entities as members.
 3. A human may participate in multiple agreements unless a template explicitly applies an exclusivity policy.
 4. TIME is a market/settlement protocol, not a work-verification protocol.
-5. A member’s wallet is replaceable; the privacy-preserving human identity commitment is the durable identity key.
-6. Shares are explicit and sum to 10,000 basis points.
-7. No agent can unilaterally alter a charter, add a member, or release shared funds.
-8. Every agreement has an explicit exit and dissolution path.
-9. TIME records offers and purchases of human time; it does not verify work performance or deliverable quality.
-10. Canonical TIME accounting is independent of exchange rates and external-chain settlement.
+5. TIME requires the seller to be a verified human; the buyer may be a human or a non-human buyer account unless an application-specific policy says otherwise.
+6. A member’s wallet is replaceable; the privacy-preserving human identity commitment is the durable identity key.
+7. Shares are explicit and sum to 10,000 basis points.
+8. No agent can unilaterally alter a charter, add a member, or release shared funds.
+9. Every agreement has an explicit exit and dissolution path.
+10. TIME records offers and purchases of human time; it does not verify work performance or deliverable quality.
+11. Canonical TIME accounting is independent of exchange rates and external-chain settlement.
 
 ## Agreement
 

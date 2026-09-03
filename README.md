@@ -10,7 +10,7 @@ Human Bond and TIME Protocol share one technical home:
 
 ## The thesis
 
-People need better primitives for working together. Human Bond lets two or more verified humans create a private, human-readable agreement with explicit contributions, shares, permissions, obligations, and exit terms. TIME Protocol lets one verified human offer time and another verified human purchase it: **1 TIME = 1 hour of human time offered and purchased through the protocol**. TIME does not verify work performance; that belongs to the parties or a separate system.
+People need better primitives for working together. Human Bond lets two or more verified humans create a private, human-readable agreement with explicit contributions, shares, permissions, obligations, and exit terms. TIME Protocol lets a verified human offer time to a buyer that may be human or non-human: **1 TIME = 1 hour of human time offered and purchased through the protocol**. TIME does not verify work performance; that belongs to the parties or a separate system.
 
 Marriage is one Human Bond template—not the product definition. Other templates include business partnerships, co-ownership, project teams, cooperatives, caregiving, and other human arrangements.
 

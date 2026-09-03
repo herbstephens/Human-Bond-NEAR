@@ -34,10 +34,10 @@ NEAR is the canonical technical home. External-chain execution is an adapter, ne
 
 ## TIME flow
 
-1. A verified-human attestation is recorded in the NEAR Human Registry.
-2. A seller offers a quantity of time, price, asset, availability, and terms.
-3. A buyer accepts and purchases the offered time.
-4. The protocol records the bilateral purchase and settles payment, optionally through escrow.
+1. A seller’s verified-human attestation is recorded in the NEAR Human Registry.
+2. The seller offers a quantity of time, price, asset, availability, and terms.
+3. A buyer—human or non-human, depending on application policy—accepts and purchases the offered time.
+4. The protocol records the purchase and settles payment, optionally through escrow.
 5. A Time Receipt records the agreed purchase; it is not proof that work was performed.
 6. TIME can be held, transferred, exchanged, distributed through the commons mechanism, or used in a Human Bond agreement.
 7. If the parties want work verification, they arrange it outside TIME. TIME does not adjudicate performance or quality.
