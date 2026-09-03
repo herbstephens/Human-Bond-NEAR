@@ -53,7 +53,8 @@ Initial scope: 2–8 members. Larger groups can later use a separate collective/
 ## Initial contract boundaries
 
 - `HumanRegistry`: World ID attestation commitments, nullifier uniqueness, revocation, and recovery.
-- `AgreementRegistry`: agreement lifecycle, membership, charter commitments, and policy.
+- `AgreementRegistry`: agreement lifecycle, membership, charter commitments, policy, and status.
+- `BondRegistry`: consent-based paid third-party queries, disclosure policies, minimal signed responses, fees, expiry, and revocation.
 - `Treasury`: deposits, claims, distributions, spending limits, and dissolution.
 - `TimeMarket`: time offers, purchases, prices, availability, cancellations, and settlement.
 - `TimeReceipt`: a receipt for an agreed time purchase; it is not proof that work was performed.
@@ -62,5 +63,11 @@ Initial scope: 2–8 members. Larger groups can later use a separate collective/
 - `ExternalVerificationAdapter` (optional): references a separate verifier or Human Bond agreement without making verification part of TIME’s core.
 - `CommonsDistributor`: distribution mechanism for protocol-defined commons income.
 - `AgentPolicy`: agent registration, attestation, capabilities, rate limits, and revocation.
+
+## Bond Registry query contract
+
+A registry query must include a subject authorization, a named claim, scope, expiry, nonce, and payment. The response is a minimal signed `true`, `false`, or `unknown` result with an as-of block/time. The registry must not expose the other member’s identity or private charter by default.
+
+A query can be application-specific. Human Bond may require both members’ authorization for a relationship-status claim; another application may use a different disclosure policy. No client receives unrestricted access to the relationship graph.
 
 These names are provisional until the contract interfaces are specified.

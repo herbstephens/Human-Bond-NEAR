@@ -41,6 +41,7 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 - [Human Bond model](docs/human-bond.md)
 - [TIME Protocol model](docs/time-protocol.md)
 - [NEAR agent boundary](docs/agent-architecture.md)
+- [Human Bond Registry](docs/registry.md)
 - [Security and privacy](docs/security.md)
 
 ## Development direction
@@ -49,9 +50,10 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 2. Build the NEAR contracts and test them locally.
 3. Integrate World ID attestations through a privacy-preserving registry.
 4. Add constrained Human Bond agents and approval flows.
-5. Implement simple time offers, purchases, receipts, minting, and settlement.
-6. Add NEAR-native assets and treasury settlement.
-7. Add optional cross-chain delivery only after the NEAR-native path is sound.
+5. Add the consent-based, paid Bond Registry with minimal signed claims.
+6. Implement simple time offers, purchases, receipts, minting, and settlement.
+7. Add NEAR-native assets and treasury settlement.
+8. Add optional cross-chain delivery only after the NEAR-native path is sound.
 
 **Status:** architecture reset; contracts not yet implemented.
 

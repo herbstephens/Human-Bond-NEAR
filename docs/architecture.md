@@ -12,6 +12,7 @@ NEAR
   Human Registry
   Agreement contracts
   Human Bond agents
+  Bond Registry (paid, consent-based queries)
   TIME market and purchase receipts
   fungible tokens and NFTs
   treasuries, governance, and settlement
@@ -49,7 +50,9 @@ NEAR is the canonical technical home. External-chain execution is an adapter, ne
 - Agent keys must be constrained, replaceable, rate-limited, and auditable.
 - Agents cannot custody shared funds or bypass the agreement’s approval policy.
 - World ID proves uniqueness; it does not prove that work happened.
+- In Human Bond, every member is a verified human. In the general TIME market, only the seller is required to be a verified human unless an application policy says otherwise.
 - TIME does not verify work, deliverables, quality, or satisfaction. Any such verification belongs to the parties or a separate system.
+- Registry access is consent-based, paid, scoped, expiring, and privacy-preserving; it is not unrestricted relationship-graph access.
 - Private charters and evidence stay encrypted off-chain; NEAR stores commitments and selective disclosures.
 
 ## Optional cross-chain execution
