@@ -1,6 +1,6 @@
 # Human Bond Registry
 
-The Human Bond Registry is a consent-based, paid verification service for third parties that need to know whether a person has an active Human Bond of a particular type.
+The Human Bond Registry is a consent-based, paid verification service for third parties that need to know whether a person has an active Human Bond of a particular type. The Partnership Agent may prepare a response, but cannot grant disclosure consent or broaden the claim beyond the Agreement’s policy.
 
 A service such as Tinder may query the registry—for example, to determine whether a consenting user has an active exclusive marriage-type Bond. The registry does not publish a global list of relationships and does not reveal private charter contents.
 

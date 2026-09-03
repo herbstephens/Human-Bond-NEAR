@@ -3,7 +3,7 @@
 ## Required threat areas
 
 - compromised participant wallet;
-- compromised or malicious agent;
+- compromised or malicious Partner Agent or Partnership Agent;
 - forged or replayed World ID attestation;
 - unauthorized or overbroad registry queries;
 - consent forgery, replay, or revocation failure;

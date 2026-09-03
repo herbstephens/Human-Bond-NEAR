@@ -21,7 +21,9 @@ World ID attestation
         ↓
 NEAR Human Registry
         ↓
-Human Bond agents on NEAR
+Partner Agents on NEAR (one per human)
+        ↓
+Partnership Agent on NEAR (one per formed agreement)
         ↓
 Agreement contracts + TIME offers/purchase receipts
         ↓
@@ -49,7 +51,7 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 1. Define the agreement and identity invariants.
 2. Build the NEAR contracts and test them locally.
 3. Integrate World ID attestations through a privacy-preserving registry.
-4. Add constrained Human Bond agents and approval flows.
+4. Add Partner Agents, the Partnership Agent, and approval flows.
 5. Add the consent-based, paid Bond Registry with minimal signed claims.
 6. Implement simple time offers, purchases, receipts, minting, and settlement.
 7. Add NEAR-native assets and treasury settlement.

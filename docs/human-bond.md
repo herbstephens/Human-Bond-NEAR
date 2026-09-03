@@ -14,7 +14,7 @@ Templates are product presets over one general Agreement primitive. The protocol
 
 ## Agent role
 
-A participant’s Human Bond agent can explain terms, negotiate within stated constraints, prepare a charter, collect approvals, monitor obligations, propose amendments, and help manage authorized registry disclosures. It cannot impersonate a human, prove humanity, change terms without authorization, reveal private Bond data, or move treasury funds outside the agreement policy.
+Each human member has a Partner Agent that represents their stated interests and constraints. After the Bond is formed, a separate Partnership Agent represents the collective agreement. The Partner Agents negotiate and seek their principals’ approvals; the Partnership Agent coordinates the accepted charter, operations, monitoring, and authorized registry disclosures. Neither agent type can impersonate a human, prove humanity, change terms without authorization, reveal private Bond data, or move treasury funds outside the agreement policy. The Partnership Agent is not a human member.
 
 ## Registry
 

@@ -11,7 +11,8 @@ World ID
 NEAR
   Human Registry
   Agreement contracts
-  Human Bond agents
+  Partner Agents (one per human member)
+  Partnership Agent (one per formed agreement)
   Bond Registry (paid, consent-based queries)
   TIME market and purchase receipts
   fungible tokens and NFTs
@@ -27,11 +28,12 @@ NEAR is the canonical technical home. External-chain execution is an adapter, ne
 ## Human Bond flow
 
 1. Participants prove uniqueness through World ID.
-2. Each participant’s constrained Human Bond agent helps capture intent and negotiate terms.
-3. Participants review the human-readable charter.
-4. The NEAR Agreement contract records the charter commitment, members, shares, permissions, and exit policy.
-5. A NEAR treasury enforces approved deposits, distributions, and withdrawals.
-6. Agents monitor deadlines and propose actions; the authorization policy and human approvals decide.
+2. Each participant’s Partner Agent helps capture intent and negotiate terms.
+3. The Partner Agents present a proposed charter to the participants.
+4. Participants review and approve the human-readable charter.
+5. NEAR creates the Agreement and its Partnership Agent, which coordinates the accepted charter.
+6. A NEAR treasury enforces approved deposits, distributions, and withdrawals.
+7. Partner Agents and the Partnership Agent monitor deadlines and propose actions; the authorization policy and human approvals decide.
 
 ## TIME flow
 
