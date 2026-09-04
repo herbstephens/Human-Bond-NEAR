@@ -2,7 +2,7 @@
 
 ## System boundary
 
-Human Bond + TIME Protocol has three layers:
+Human Bond + TIME Protocol has four layers:
 
 ```text
 World ID
@@ -11,6 +11,7 @@ World ID
 NEAR
   Human Registry
   Agreement contracts
+  partnership operating layer: budgets, treasury, savings, investments, distributions
   Partner Agents (one per human member)
   Partnership Agent (one per formed agreement)
   Bond Registry (paid, consent-based queries)
@@ -19,12 +20,16 @@ NEAR
   fungible tokens and NFTs
   treasuries, governance, and settlement
 
+External institutional connections
+  lawyers, accountants, banks, legal entities, tax services,
+  investment providers, and regulated counterparties
+
 Optional external execution
-  NEAR Intents / Chain Signatures
+  Chain Signatures
   delivery to another chain when a user explicitly requests it
 ```
 
-NEAR is the canonical technical home. External-chain execution is an adapter, never the source of truth for an agreement or TIME accounting.
+NEAR is the canonical technical home. Lawyers, accountants, banks, legal entities, tax services, investment providers, and other institutions are connected as external services or counterparties. Human Bond does not replace their legal or regulatory functions. External-chain execution is an adapter, never the source of truth for an agreement or TIME accounting.
 
 ## Human Bond flow
 
@@ -66,6 +71,12 @@ NEAR Intents is a core TIME component. A seller publishes the intent to sell one
 The canonical offer, seller constraints, accepted purchase, and rate statistics remain on NEAR. Chain Signatures and external-chain delivery are optional execution adapters, not the marketplace itself.
 
 See [TIME Marketplace](time-marketplace.md) for the offer schema, agent flow, Human Bond formation path, and global rate-statistics design.
+
+## Partnership operating layer
+
+Human Bond is not only a charter or relationship registry. It is an operating layer for the shared economic life of a partnership. The Agreement and Partnership Agent can coordinate budgets, income, expenses, treasury approvals, savings, investment proposals, distributions, records, and dissolution. One partner may earn visible income while another contributes care, administration, property work, or support; the Agreement can recognize those contributions without declaring a universal legal property regime.
+
+A legal entity, lawyer, bank, accountant, tax service, investment provider, or other regulated institution may connect as an external service or counterparty. Human Bond does not replace those institutions or guarantee that a bank account, incorporation, tax status, or legal right exists.
 
 ## Optional cross-chain execution
 

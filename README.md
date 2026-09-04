@@ -10,9 +10,15 @@ Human Bond and TIME Protocol share one technical home:
 
 ## The thesis
 
-People need better primitives for working together. Human Bond lets two or more verified humans create a private, human-readable agreement with explicit contributions, shares, permissions, obligations, and exit terms. TIME Protocol lets a verified human offer time to a buyer that may be human or non-human: **1 TIME = 1 hour of human time offered and purchased through the protocol**. TIME does not verify work performance; that belongs to the parties or a separate system.
+Human Bond is an operating system for partnerships among humans. It helps two or more people turn a relationship that already exists in practice—marriage, household, family enterprise, small business, co-ownership, or project—into a human-readable agreement with explicit contributions, shares, roles, treasury rules, permissions, obligations, and exit terms.
 
-Marriage is one Human Bond template—not the product definition. Other templates include business partnerships, co-ownership, project teams, cooperatives, caregiving, and other human arrangements.
+Many partnerships are difficult to manage in real life. A small business or household partnership may need bylaws or a partnership agreement, a lawyer, a bank account, accounting, spending controls, savings and investment decisions, records, and a plan for disagreement or dissolution. Those institutions are important, but difficult and expensive to assemble. Human Bond provides the shared operating layer and connects the partners to lawyers, accountants, banks, legal entities, and regulated providers when needed.
+
+Marriage is one of the clearest partnership templates. One spouse may earn most or all of the visible income while the other contributes care, household management, property work, or support that makes that income possible. Human Bond can model the partnership’s agreed economic rules, including joint treasury, contributions, savings, investments, and distributions, without assuming that cash income is the only contribution or replacing jurisdiction-specific law.
+
+Marriage is a template, not the category.
+
+TIME Protocol lets a verified human offer time to a buyer that may be human or non-human: **1 TIME = 1 hour of human time offered and purchased through the protocol**. TIME does not verify work performance; that belongs to the parties or a separate system.
 
 ## NEAR-native architecture
 
@@ -36,6 +42,8 @@ Optional Chain Signatures for external-chain delivery
 
 Agents propose, negotiate, explain, and monitor. They do not unilaterally change a charter or release treasury funds. Participant approvals and contract policy remain authoritative.
 
+The legal entity, if one is needed, is an external legal wrapper. The Human Bond remains an agreement among humans. A bank, company, lawyer, accountant, investment provider, or other institution can connect to the partnership but is not a Human Bond member.
+
 ## Repository status
 
 This is the new NEAR + World ID technical home. It is a greenfield redesign, not an in-place migration of the previous World Chain/Soroban implementations.
@@ -43,6 +51,7 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 - [Architecture](docs/architecture.md)
 - [Protocol specification](docs/specification.md)
 - [Human Bond model](docs/human-bond.md)
+- [Partnership operating platform](docs/partnership-platform.md)
 - [TIME Protocol model](docs/time-protocol.md)
 - [TIME Marketplace and Intents](docs/time-marketplace.md)
 - [NEAR agent boundary](docs/agent-architecture.md)
@@ -55,11 +64,12 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 2. Build the NEAR contracts and test them locally.
 3. Integrate World ID attestations through a privacy-preserving registry.
 4. Add Partner Agents, the Partnership Agent, and approval flows.
-5. Make NEAR Intents the core marketplace for global human-time offers and buyer intents.
-6. Add the consent-based, paid Bond Registry with minimal signed claims.
-7. Implement time offers, purchases, receipts, minting, settlement, and aggregate rate statistics.
-8. Add NEAR-native assets and treasury settlement.
-9. Add optional external-chain delivery only after the NEAR-native path is sound.
+5. Build the partnership operating layer: treasury, budgets, spending, savings, investments, distributions, records, and dissolution.
+6. Make NEAR Intents the core marketplace for global human-time offers and buyer intents.
+7. Add the consent-based, paid Bond Registry with minimal signed claims.
+8. Implement time offers, purchases, receipts, minting, settlement, and aggregate rate statistics.
+9. Add NEAR-native assets and treasury settlement.
+10. Add optional external-chain delivery only after the NEAR-native path is sound.
 
 **Status:** architecture reset; contracts not yet implemented.
 

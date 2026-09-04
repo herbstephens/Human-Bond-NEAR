@@ -9,6 +9,8 @@
 - consent forgery, replay, or revocation failure;
 - relationship-graph enumeration through query patterns;
 - unauthorized charter amendment;
+- unauthorized treasury spending, savings transfer, or investment allocation;
+- false institutional or legal-status claims;
 - treasury drain or distribution manipulation;
 - oracle/evidence failure;
 - cross-chain route failure;

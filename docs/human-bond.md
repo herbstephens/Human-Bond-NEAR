@@ -1,6 +1,6 @@
 # Human Bond
 
-Human Bond is an agreement protocol for two or more verified humans. It makes collaboration explicit, private, executable, and easier to leave cleanly.
+Human Bond is a partnership operating layer for two or more verified humans. It makes marriages, households, family enterprises, small businesses, co-ownership arrangements, and projects explicit, private, executable, and easier to manage or leave cleanly.
 
 ## Templates
 
@@ -15,6 +15,12 @@ Templates are product presets over one general Agreement primitive. The protocol
 ## Agent role
 
 Each human member has a Partner Agent that represents their stated interests and constraints. After the Bond is formed, a separate Partnership Agent represents the collective agreement. The Partner Agents negotiate and seek their principals’ approvals; the Partnership Agent coordinates the accepted charter, operations, monitoring, and authorized registry disclosures. Neither agent type can impersonate a human, prove humanity, change terms without authorization, reveal private Bond data, or move treasury funds outside the agreement policy. The Partnership Agent is not a human member.
+
+## Partnership operations
+
+A Human Bond can manage more than relationship terms. Its charter may define household or business income, contributions, roles, budgets, treasury approvals, expenses, savings, investments, distributions, borrowing limits, records, and exit procedures. One member may earn the visible income while another contributes care, administration, property work, or support; the Agreement can recognize those contributions without assuming that cash income alone defines value. Legal ownership and marital-property treatment remain jurisdiction-specific and may require a lawyer.
+
+Human Bond can connect the Agreement to banks, lawyers, accountants, tax services, investment providers, and legal entities. These connections do not make the external institution a Human Bond member or turn Human Bond into a bank, law firm, accountant, or investment adviser.
 
 ## Registry
 

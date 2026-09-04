@@ -50,7 +50,7 @@ Policy {
 }
 ```
 
-Initial scope: 2–8 members. Larger groups can later use a separate collective/DAO model without weakening the Human Bond human-member invariant.
+Initial scope: 2–8 members. Larger groups can later use a separate collective/DAO model without weakening the Human Bond human-member invariant. The Agreement may connect to a company, bank, lawyer, accountant, investment provider, or other institution, but those entities are service providers or counterparties—not members.
 
 ## Initial contract boundaries
 
@@ -58,7 +58,8 @@ Initial scope: 2–8 members. Larger groups can later use a separate collective/
 - `AgreementRegistry`: agreement lifecycle, membership, charter commitments, policy, status, and Partnership Agent linkage.
 - `AgentPolicy`: registration, attestation, capabilities, rate limits, delegation, and revocation for Partner Agents and Partnership Agents.
 - `BondRegistry`: consent-based paid third-party queries, disclosure policies, minimal signed responses, fees, expiry, and revocation.
-- `Treasury`: deposits, claims, distributions, spending limits, and dissolution.
+- `Treasury`: deposits, claims, distributions, spending limits, savings, investment allocations, and dissolution.
+- `PartnershipOperations`: budgets, income routing, expenses, approvals, records, and institutional connections.
 - `TimeIntentRegistry`: publish, update, expire, cancel, and discover seller TimeOffers and buyer PurchaseIntents through NEAR Intents.
 - `TimeMatcher`: permissionless matching, recruitment, negotiation, and solver settlement interface within declared constraints.
 - `TimePurchase`: bilateral purchase record, escrow, cancellation, and payment settlement.
