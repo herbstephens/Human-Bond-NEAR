@@ -30,10 +30,12 @@ A partner agent may:
 - negotiate with other partner agents within explicit limits;
 - prepare or review charter amendments;
 - request its principal’s approval for consequential actions;
-- monitor obligations, deadlines, offers, and registry disclosures;
+- monitor obligations, deadlines, time offers, purchase intents, and registry disclosures;
+- discover and recruit sellers or buyers through the TIME Intents marketplace;
+- negotiate time-sale terms within the principal’s explicit rate, availability, and buyer constraints;
 - present proposed distributions or settlement actions.
 
-A partner agent cannot prove humanity, impersonate its principal, change the agreement, consent on the principal’s behalf without an explicit authorization, or spend shared funds outside policy.
+A partner agent cannot prove humanity, impersonate its principal, change the agreement, consent on the principal’s behalf without an explicit authorization, publish a time offer outside its principal’s constraints, accept a purchase without authorization, or spend shared funds outside policy.
 
 ### 2. Partnership agent
 
@@ -41,10 +43,13 @@ Once the parties accept an agreement, a separate Partnership Agent is created to
 
 The Partnership Agent may:
 
+- coordinate authorized TIME Intents for the agreement;
+- recruit counterparties and prepare negotiated time purchases;
 - maintain the agreement’s operational state and charter commitment;
 - coordinate the partner agents;
 - translate the accepted charter into permitted workflows;
-- track shared deadlines, offers, purchases, balances, and claims;
+- track shared deadlines, TIME offers, purchase intents, purchases, balances, and claims;
+- recruit counterparties and coordinate NEAR Intent settlement for authorized time purchases;
 - propose distributions, amendments, renewals, or dissolution steps;
 - prepare authorized registry responses;
 - act as the agreement’s interface to NEAR contracts and approved external services;
@@ -52,6 +57,8 @@ The Partnership Agent may:
 
 The Partnership Agent cannot:
 
+- publish a member’s time or change a member’s rate without authorization;
+- accept a purchase on behalf of a human without the required approval;
 - add or remove a partner by itself;
 - change shares or charter terms;
 - decide that work was performed;

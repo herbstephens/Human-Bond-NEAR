@@ -6,7 +6,7 @@ Human Bond and TIME Protocol share one technical home:
 
 - **World ID** anchors the proof that each participant is a unique human.
 - **NEAR** hosts the agreements, agents, assets, governance, treasury, and settlement.
-- **NEAR Intents and Chain Signatures** provide optional cross-chain execution without making another chain a core dependency.
+- **NEAR Intents** is the core marketplace for time offers, buyer intents, discovery, matching, recruitment, and negotiated settlement. Chain Signatures provide optional external-chain delivery without making another chain a core dependency.
 
 ## The thesis
 
@@ -42,6 +42,7 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 - [Protocol specification](docs/specification.md)
 - [Human Bond model](docs/human-bond.md)
 - [TIME Protocol model](docs/time-protocol.md)
+- [TIME Marketplace and Intents](docs/time-marketplace.md)
 - [NEAR agent boundary](docs/agent-architecture.md)
 - [Human Bond Registry](docs/registry.md)
 - [Security and privacy](docs/security.md)
@@ -52,10 +53,11 @@ This is the new NEAR + World ID technical home. It is a greenfield redesign, not
 2. Build the NEAR contracts and test them locally.
 3. Integrate World ID attestations through a privacy-preserving registry.
 4. Add Partner Agents, the Partnership Agent, and approval flows.
-5. Add the consent-based, paid Bond Registry with minimal signed claims.
-6. Implement simple time offers, purchases, receipts, minting, and settlement.
-7. Add NEAR-native assets and treasury settlement.
-8. Add optional cross-chain delivery only after the NEAR-native path is sound.
+5. Make NEAR Intents the core marketplace for global human-time offers and buyer intents.
+6. Add the consent-based, paid Bond Registry with minimal signed claims.
+7. Implement time offers, purchases, receipts, minting, settlement, and aggregate rate statistics.
+8. Add NEAR-native assets and treasury settlement.
+9. Add optional external-chain delivery only after the NEAR-native path is sound.
 
 **Status:** architecture reset; contracts not yet implemented.
 

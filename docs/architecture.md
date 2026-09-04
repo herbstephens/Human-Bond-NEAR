@@ -14,7 +14,8 @@ NEAR
   Partner Agents (one per human member)
   Partnership Agent (one per formed agreement)
   Bond Registry (paid, consent-based queries)
-  TIME market and purchase receipts
+  NEAR Intents marketplace: time offers, buyer intents, matching, recruitment
+  TIME purchases, receipts, and rate statistics
   fungible tokens and NFTs
   treasuries, governance, and settlement
 
@@ -38,12 +39,13 @@ NEAR is the canonical technical home. External-chain execution is an adapter, ne
 ## TIME flow
 
 1. A seller’s verified-human attestation is recorded in the NEAR Human Registry.
-2. The seller offers a quantity of time, price, asset, availability, and terms.
-3. A buyer—human or non-human, depending on application policy—accepts and purchases the offered time.
-4. The protocol records the purchase and settles payment, optionally through escrow.
-5. A Time Receipt records the agreed purchase; it is not proof that work was performed.
-6. TIME can be held, transferred, exchanged, distributed through the commons mechanism, or used in a Human Bond agreement.
-7. If the parties want work verification, they arrange it outside TIME. TIME does not adjudicate performance or quality.
+2. The seller publishes a NEAR Intent: “I intend to sell one hour of my time for $X,” with rate, availability, and constraints.
+3. Buyer agents, recruiters, and matching services discover the Intent.
+4. Agents negotiate within the seller’s declared constraints; the seller explicitly authorizes the final purchase.
+5. A buyer—human or non-human, depending on application policy—accepts and purchases the offered time.
+6. The protocol records the purchase and settles payment, optionally through escrow.
+7. A Time Receipt records the agreed purchase; RateStatistics publishes privacy-preserving aggregate rates. Neither is proof that work was performed.
+8. If the parties want work verification, they arrange it outside TIME. TIME does not adjudicate performance or quality.
 
 ## Trust boundaries
 
@@ -56,6 +58,14 @@ NEAR is the canonical technical home. External-chain execution is an adapter, ne
 - TIME does not verify work, deliverables, quality, or satisfaction. Any such verification belongs to the parties or a separate system.
 - Registry access is consent-based, paid, scoped, expiring, and privacy-preserving; it is not unrestricted relationship-graph access.
 - Private charters and evidence stay encrypted off-chain; NEAR stores commitments and selective disclosures.
+
+## NEAR Intents marketplace
+
+NEAR Intents is a core TIME component. A seller publishes the intent to sell one or more hours at a self-chosen rate. Buyer agents, recruiters, and matching agents discover the intent, negotiate within the seller’s declared constraints, and present a final purchase for explicit seller authorization. The resulting purchase is recorded and settled by NEAR-native TIME contracts.
+
+The canonical offer, seller constraints, accepted purchase, and rate statistics remain on NEAR. Chain Signatures and external-chain delivery are optional execution adapters, not the marketplace itself.
+
+See [TIME Marketplace](time-marketplace.md) for the offer schema, agent flow, Human Bond formation path, and global rate-statistics design.
 
 ## Optional cross-chain execution
 

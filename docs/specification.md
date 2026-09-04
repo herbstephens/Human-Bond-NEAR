@@ -11,8 +11,10 @@
 7. Shares are explicit and sum to 10,000 basis points.
 8. No agent can unilaterally alter a charter, add a member, or release shared funds.
 9. Every agreement has an explicit exit and dissolution path.
-10. TIME records offers and purchases of human time; it does not verify work performance or deliverable quality.
-11. Canonical TIME accounting is independent of exchange rates and external-chain settlement.
+10. TIME records seller intents, offers, purchases, and settlement of human time; it does not verify work performance or deliverable quality.
+11. NEAR Intents is the canonical marketplace interface for TIME offers, discovery, recruitment, negotiation, and purchase preparation.
+12. Every seller chooses their own rate; aggregate statistics are descriptive and do not set wages.
+13. Canonical TIME accounting is independent of exchange rates and external-chain settlement.
 
 ## Agreement
 
@@ -57,14 +59,14 @@ Initial scope: 2–8 members. Larger groups can later use a separate collective/
 - `AgentPolicy`: registration, attestation, capabilities, rate limits, delegation, and revocation for Partner Agents and Partnership Agents.
 - `BondRegistry`: consent-based paid third-party queries, disclosure policies, minimal signed responses, fees, expiry, and revocation.
 - `Treasury`: deposits, claims, distributions, spending limits, and dissolution.
-- `TimeMarket`: time offers, purchases, prices, availability, cancellations, and settlement.
-- `TimeReceipt`: a receipt for an agreed time purchase; it is not proof that work was performed.
+- `TimeIntentRegistry`: publish, update, expire, cancel, and discover seller TimeOffers and buyer PurchaseIntents through NEAR Intents.
+- `TimeMatcher`: permissionless matching, recruitment, negotiation, and solver settlement interface within declared constraints.
+- `TimePurchase`: bilateral purchase record, escrow, cancellation, and payment settlement.
+- `TimeReceipt`: receipt for purchased time; it is not proof that work was performed.
+- `RateStatistics`: privacy-preserving aggregate rate statistics with a committed methodology.
 - `TimeCalendar`: optional availability/calendar commitments per verified human.
 - `TimeToken`: TIME issuance, transfer, and policy-controlled retirement.
-- `ExternalVerificationAdapter` (optional): references a separate verifier or Human Bond agreement without making verification part of TIME’s core.
 - `CommonsDistributor`: distribution mechanism for protocol-defined commons income.
-- `AgentPolicy`: registration, attestation, capabilities, rate limits, delegation, and revocation for Partner Agents and Partnership Agents.
-
 ## Bond Registry query contract
 
 A registry query must include a subject authorization, a named claim, scope, expiry, nonce, and payment. The response is a minimal signed `true`, `false`, or `unknown` result with an as-of block/time. The registry must not expose the other member’s identity or private charter by default.

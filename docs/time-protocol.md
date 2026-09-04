@@ -11,17 +11,34 @@ TIME does **not** verify whether the work was performed, whether the buyer was s
 - human verification registry;
 - time offers and purchase agreements;
 - TIME balances or receipts representing purchased hours;
+- NEAR Intents time-offer and purchase marketplace;
+- agent discovery, recruitment, negotiation, and solver execution;
 - payment, escrow, cancellation, and settlement;
-- optional marketplace discovery;
+- aggregate global rate statistics;
 - optional commons distribution;
 - governance and treasury controls.
+
+## The canonical time intent
+
+The canonical TIME marketplace action is a NEAR Intent:
+
+```text
+I intend to sell 1 hour of my human time for $X.
+```
+
+The seller chooses the hourly rate. The intent is discoverable by buyer agents, recruiters, and matching services. They may recruit the seller, negotiate within the seller’s declared constraints, and prepare a purchase or Human Bond. The seller must explicitly authorize the resulting purchase.
+
+NEAR Intents is therefore part of TIME’s core marketplace, not an optional adapter. TIME contracts remain authoritative for seller constraints, accepted purchases, escrow, settlement, and receipts.
+
+See [TIME Marketplace](time-marketplace.md) for the offer schema, buyer intents, matching flow, and aggregate-rate design.
 
 ## The simple transaction
 
 ```text
-Seller: verified human offers 5 hours at an agreed price and terms.
+Seller: verified human publishes a NEAR Intent to sell 5 hours at a self-chosen rate and terms.
+Agents: discover, recruit, negotiate, and prepare a proposed purchase within those constraints.
 Buyer: human, company, institution, agent, or other permitted account accepts and purchases the 5 hours.
-Protocol: records the transaction and settles the payment.
+Protocol: records the accepted purchase and settles the payment.
 ```
 
 The protocol may record the agreed time, price, asset, availability, cancellation terms, and payment status. It does not attest that the seller subsequently performed the work. If the parties want work verification, they can attach an external verifier or a separate Human Bond agreement without changing TIME’s core function.
