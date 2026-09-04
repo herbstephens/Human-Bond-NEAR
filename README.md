@@ -25,11 +25,13 @@ Partner Agents on NEAR (one per human)
         ↓
 Partnership Agent on NEAR (one per formed agreement)
         ↓
-Agreement contracts + TIME offers/purchase receipts
+NEAR Intents: global human-time offer marketplace
+        ↓
+TIME purchase contracts, receipts, and rate statistics
         ↓
 NEAR assets, treasury, governance, and settlement
         ↓
-Optional NEAR Intents / Chain Signatures for external-chain delivery
+Optional Chain Signatures for external-chain delivery
 ```
 
 Agents propose, negotiate, explain, and monitor. They do not unilaterally change a charter or release treasury funds. Participant approvals and contract policy remain authoritative.
